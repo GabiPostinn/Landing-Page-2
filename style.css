@@ -39,6 +39,8 @@
   align-items: center;
   padding: 56px 145px 56px 145px;
   backdrop-filter: blur(15px);
+
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.08) 28.32%, rgba(0, 0, 0, 0) 95.98%);
 }
 .nav-logo {
   align-items: center;
@@ -94,10 +96,31 @@
   box-shadow: 0px 40px 40px 0px #00000040;
   background: linear-gradient(142.21deg, rgba(27, 51, 81, 0.3) 19.63%, rgba(155, 97, 149, 0.3) 83.01%);
   width: 424px;
-  height: 717px;
+  height: auto;
   margin: 0 0 0 624px;
   border-radius: 20px;
   border-width: 1px;
+}
+.first-col-right-button > button {
+  width: 216px;
+  margin: 15px;
+  height: 46px;
+  border-radius: 10px;
+  gap: 10px;
+  border-width: 1px;
+  padding-top: 13px;
+  padding-right: 56px;
+  padding-bottom: 13px;
+  padding-left: 56px;
+  border: 1px solid;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.86615) 24.29%, rgba(0, 0, 0, 0.6) 76.35%);
+
+  background: linear-gradient(180deg, rgba(49, 58, 91, 0) -19.57%, #313a5b 98.8%, rgba(49, 58, 91, 0.222222) 130.43%), linear-gradient(180deg, rgba(0, 0, 0, 0) 48.05%, rgba(0, 0, 0, 0.2) 48.9%);
 }
 #first-col-right-text > h3 {
   color: white;
